@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 50px; }
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; }
+  button:hover {
+    background-color: #218838; }
+
+#quiz-container {
+  display: none; }
+
+#auth-container,
+#landing-container,
+#quiz-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+  #auth-container h2,
+  #landing-container h2,
+  #quiz-container h2 {
+    margin-bottom: 20px; }
+  #auth-container .styled-form,
+  #auth-container form,
+  #landing-container .styled-form,
+  #landing-container form,
+  #quiz-container .styled-form,
+  #quiz-container form {
+    display: flex;
+    flex-direction: column; }
+    #auth-container .styled-form input,
+    #auth-container form input,
+    #landing-container .styled-form input,
+    #landing-container form input,
+    #quiz-container .styled-form input,
+    #quiz-container form input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px; }
+    #auth-container .styled-form button,
+    #auth-container form button,
+    #landing-container .styled-form button,
+    #landing-container form button,
+    #quiz-container .styled-form button,
+    #quiz-container form button {
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px; }
+      #auth-container .styled-form button:hover,
+      #auth-container form button:hover,
+      #landing-container .styled-form button:hover,
+      #landing-container form button:hover,
+      #quiz-container .styled-form button:hover,
+      #quiz-container form button:hover {
+        background-color: #218838; }
+    #auth-container .styled-form p,
+    #auth-container form p,
+    #landing-container .styled-form p,
+    #landing-container form p,
+    #quiz-container .styled-form p,
+    #quiz-container form p {
+      margin-top: 10px; }
+      #auth-container .styled-form p a,
+      #auth-container form p a,
+      #landing-container .styled-form p a,
+      #landing-container form p a,
+      #quiz-container .styled-form p a,
+      #quiz-container form p a {
+        color: #007bff;
+        text-decoration: none; }
+        #auth-container .styled-form p a:hover,
+        #auth-container form p a:hover,
+        #landing-container .styled-form p a:hover,
+        #landing-container form p a:hover,
+        #quiz-container .styled-form p a:hover,
+        #quiz-container form p a:hover {
+          text-decoration: underline; }
+
+#landing-container p {
+  margin: 20px 0; }
+
+#landing-container .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; }
+  #landing-container .btn:hover {
+    background-color: #0056b3; }
+
+#quiz-container #question {
+  margin-bottom: 20px; }
+
+#quiz-container .option-btn {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; }
+  #quiz-container .option-btn:hover {
+    background-color: #0056b3; }
+
+#quiz-container #result {
+  margin-top: 20px;
+  font-weight: bold; }
+
+#quiz-container #next-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; }
+  #quiz-container #next-btn:hover {
+    background-color: #218838; }

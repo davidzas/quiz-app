@@ -1,0 +1,142 @@
+// Global Styles
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #218838;
+  }
+}
+
+#quiz-container {
+  display: none;
+}
+
+// Container for Authentication Pages (Login and Register)
+#auth-container,
+#landing-container,
+#quiz-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .styled-form,
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #218838;
+      }
+    }
+
+    p {
+      margin-top: 10px;
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Landing Page Styles
+#landing-container {
+  p {
+    margin: 20px 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+// Quiz Application Styles
+#quiz-container {
+  #question {
+    margin-bottom: 20px;
+  }
+
+  .option-btn {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  #next-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #218838;
+    }
+  }
+}
